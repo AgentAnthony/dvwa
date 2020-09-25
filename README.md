@@ -325,28 +325,10 @@ You may be running into problems with SELinux.  Either disable SELinux or run th
 setsebool -P httpd_can_network_connect_db 1
 ```
 
-### Anything else
-
-For the latest troubleshooting information please read both open and closed tickets in the git repo:
-
-<https://github.com/ethicalhack3r/DVWA/issues>
-
-Before submitting a ticket, please make sure you are running the latest version of the code from the repo. This is not the latest release, this is the latest code from the master branch.
-
-If raising a ticket, please submit at least the following information:
-
-- Operating System
-- The last 5 lines from the web server error log directly after whatever error you are reporting occurs
-- If it is a database authentication problem, go through the steps above and screenshot each step. Submit these along with a screenshot of the section of the config file showing the database user and password.
-- A full description of what is going wrong, what you expect to happen, and what you have tried to do to fix it. "login broken" is no enough for us to understand your problem and to help fix it.
 
 - - -
 
 ## Links
 
 Homepage: http://www.dvwa.co.uk/
-
-Project Home: https://github.com/ethicalhack3r/DVWA
-
-*Created by the DVWA team*
 
